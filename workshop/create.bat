@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Steam\steamapps\common\garrysmod\bin\gmad.exe" create -folder "..\addon" -out "piano.gma"

@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\gmpublish.exe" create -addon "piano.gma" -icon "icon.jpg"

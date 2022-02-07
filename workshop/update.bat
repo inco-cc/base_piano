@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\gmpublish.exe" update -addon "piano.gma" -id 2467254761

@@ -1,0 +1,6 @@
+*.*
+!*.md
+!*.bat
+!*.lua
+!*.json
+!.gitignore
