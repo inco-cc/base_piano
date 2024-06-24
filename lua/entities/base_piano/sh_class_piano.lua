@@ -39,3 +39,13 @@ end
 function Piano:SetPod(pod)
     self:SetNW2Entity("Pod", pod)
 end
+
+function Piano:GetPlayer()
+    local pod = self:GetPod()
+
+    if pod:IsValid() then
+        return pod:GetDriver()
+    end
+
+    return NULL
+end

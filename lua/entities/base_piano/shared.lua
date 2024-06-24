@@ -3,6 +3,7 @@
 AddCSLuaFile()
 
 include("sh_class_entity.lua")
+include("sh_class_player.lua")
 include("sh_class_piano.lua")
 
 ENT.Type = "anim"
