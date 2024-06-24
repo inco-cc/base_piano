@@ -1,0 +1,10 @@
+{
+    "title": "base_piano",
+    "type": "entity",
+    "tags": [ "roleplay", "realism" ],
+    "ignore": [
+        "*.git*",
+        "*.md",
+        "LICENSE"
+    ]
+}
