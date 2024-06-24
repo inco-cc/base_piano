@@ -8,6 +8,8 @@ The following changes were made after the previous version, and will be availabl
 
 ### Added
 
+- piano.GetLocal
+
 - Player:GetPiano
 
 - Piano:GetPlayer
