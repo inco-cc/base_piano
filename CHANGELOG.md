@@ -12,7 +12,12 @@ The following changes were made after the previous version, and will be availabl
 
 - Player:GetPiano
 
+- Piano:IsKeyValid
+- Piano:IsPedalValid
 - Piano:GetPlayer
 - Piano:SetPod
 - Piano:GetPod
 - Piano:IsPiano
+
+- PIANO:GetKeyCount
+- PIANO:GetPedalCount
