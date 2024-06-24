@@ -49,3 +49,11 @@ function Piano:GetPlayer()
 
     return NULL
 end
+
+function Piano:IsKeyValid(key)
+    return key >= 0 and key < self:GetKeyCount()
+end
+
+function Piano:IsPedalValid(pedal)
+    return pedal >= 0 and pedal < self:GetPedalCount()
+end
