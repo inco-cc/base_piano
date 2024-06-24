@@ -31,3 +31,11 @@ end
 function Piano:IsPiano()
     return true
 end
+
+function Piano:GetPod()
+    return self:GetNW2Entity("Pod", NULL)
+end
+
+function Piano:SetPod(pod)
+    self:SetNW2Entity("Pod", pod)
+end

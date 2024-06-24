@@ -6,4 +6,14 @@ include("shared.lua")
 
 function ENT:Initialize()
     debug.setmetatable(self, FindMetaTable("Piano"))
+
+    local pod = ents.Create("prop_vehicle_prisoner_pod")
+
+    if pod:IsValid() then
+        pod:SetOwner(self)
+        pod:SetParent(self)
+
+        self:SetPod(pod)
+        self:DeleteOnRemove(pod)
+    end
 end
