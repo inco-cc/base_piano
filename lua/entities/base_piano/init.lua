@@ -1,6 +1,7 @@
 -- See LICENSE file for copyright and license details.
 
 AddCSLuaFile("cl_init.lua")
+AddCSLuaFile("cl_class_piano.lua")
 AddCSLuaFile("cl_library_piano.lua")
 
 include("shared.lua")
