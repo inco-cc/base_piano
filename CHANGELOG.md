@@ -12,6 +12,8 @@ The following changes were made after the previous version, and will be availabl
 
 - Player:GetPiano
 
+- Piano:GetKeyPressure
+- Piano:GetPedalPressure
 - Piano:IsKeyValid
 - Piano:IsPedalValid
 - Piano:GetPlayer
