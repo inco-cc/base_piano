@@ -12,6 +12,12 @@ The following changes were made after the previous version, and will be availabl
 
 - Player:GetPiano
 
+- Piano:PressKey
+- Piano:PressPedal
+- Piano:ReleaseKey
+- Piano:ReleasePedal
+- Piano:SetKeyPressure
+- Piano:SetPedalPressure
 - Piano:GetKeyPressure
 - Piano:GetPedalPressure
 - Piano:IsKeyValid
@@ -23,3 +29,7 @@ The following changes were made after the previous version, and will be availabl
 
 - PIANO:GetKeyCount
 - PIANO:GetPedalCount
+- PIANO:ShouldPressKey
+- PIANO:ShouldPressPedal
+- PIANO:ShouldReleaseKey
+- PIANO:ShouldReleasePedal
