@@ -11,6 +11,7 @@ The following changes were made after the previous version, and will be availabl
 - piano.GetLocal
 
 - Player:GetPiano
+- Player:IsUsingPiano
 
 - Piano:PressKey
 - Piano:PressPedal

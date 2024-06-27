@@ -17,3 +17,7 @@ function Player:GetPiano()
 
     return NULL
 end
+
+function Player:IsUsingPiano()
+    return self:GetPiano():IsValid()
+end
