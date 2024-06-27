@@ -17,3 +17,11 @@ function Piano:GetPedalPressure(pedal)
         return -1
     end
 end
+
+function Piano:IsKeyPressed(key)
+    return self:GetKeyPressure(key) > 0
+end
+
+function Piano:IsPedalPressed(pedal)
+    return self:GetPedalPressure(pedal) > 0
+end
